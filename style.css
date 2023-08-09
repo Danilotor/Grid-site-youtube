@@ -1,0 +1,70 @@
+body {
+    margin: 250px;
+}
+
+
+.container {
+    display: grid;
+
+    grid: "video video  propaganda propaganda " 150px "video video video1 info1 " 150px "video video video2 info2 " 150px "titulo-video titulo-video video3 info3 " 150px;
+
+    padding: 15px;
+    gap: 10px;
+
+
+    grid-template-columns: repeat(auto-fit, minmax(800px, 1fr));
+
+}
+
+.video {
+    grid-area: video;
+
+
+}
+
+.propaganda {
+
+    grid-area: propaganda;
+
+
+}
+
+
+.video-1 {
+    grid-area: video1;
+
+
+}
+
+.info-1 {
+    grid-area: info1;
+
+}
+
+.video-2 {
+
+    grid-area: video2;
+
+}
+
+.info-2 {
+    grid-area: info2;
+
+}
+
+.video-3 {
+    grid-area: video3;
+
+}
+
+.info-3 {
+    grid-area: info3;
+
+
+}
+
+.titulo-video {
+    grid-area: titulo-video;
+
+
+}
